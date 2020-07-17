@@ -1,4 +1,4 @@
-// 作用 简化 dispatch
+// 作用 简化 dispatch 把  Action 绑定到 dispatch上
 const bindActionCreator = ( actionCreator , dispatch )=>{
   return function() {
     return dispatch(actionCreator.apply(this, arguments))

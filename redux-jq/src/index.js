@@ -26,7 +26,6 @@ let reducer = (state = {number:0},action)=>{
 }
 let store = createStore(reducer)
 let render = ()=>{
-  console.log(store.getState())
   $('#counter').html(store.getState().number)
 }
 $('#increaseBtn').on('click',()=>{

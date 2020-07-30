@@ -8,7 +8,7 @@ redux 学习笔记与代码
 [ redux-middlewares 目录]
 1. logger (redux-logger 日志中间件 解决 打印改变前后值日志问题)
 2. promise (redux-promise promise处理中间件 解决需要使用 `promise` 问题)
-3. think (redux-think function处理中间件 解决 `action` 为 `fun` 问题)
+3. think (redux-think function处理中间件 解决 `action` 为 `fun` 问题) 
 4. redux-persist
 ```
 ```

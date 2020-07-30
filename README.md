@@ -13,5 +13,5 @@ redux 学习笔记与代码
 ```
 ```
 [ doc 目录]
-- redux-persist (redux-persist 使用)
+- redux-persist (redux-persist 使用) 
 ```

@@ -21,7 +21,7 @@ const createStore = (reducer)=>{
       listeners = listeners.filter(l=>listener !== l)
     }
   }
-  dispatch();
+  dispatch({type:''});
   return {
     getState,  // 获取最新的状态对象
     subscribe, // 订阅状态变化事件

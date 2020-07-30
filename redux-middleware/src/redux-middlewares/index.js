@@ -1,6 +1,6 @@
-import logger from './logger'
-import think from './think'
-import promise from './promise'
+import logger from './redux-logger'
+import think from './redux-think'
+import promise from './redux-promise'
 export {
   logger,
   think,

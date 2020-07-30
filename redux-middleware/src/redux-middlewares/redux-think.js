@@ -2,7 +2,6 @@
 export default ({getState,dispatch})=>{
   return (next)=>{
     return (action)=>{
-      console.log(1)
       if(typeof action === 'function'){
         action(dispatch)
       }else{

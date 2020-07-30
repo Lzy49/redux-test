@@ -7,7 +7,6 @@ export default (mapStateToProps,actions) => {
       static contextType = ReactReduxContent
       constructor(props, context) {
         super(props)
-        console.log(context)
         this.state = mapStateToProps(context.getState())
         this.bindAction = bindActionCreators(
           actions,
